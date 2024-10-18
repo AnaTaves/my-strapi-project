@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_features_testimonials",
+  "info": {
+    "displayName": "testimonial",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "authorName": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
